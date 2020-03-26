@@ -13,7 +13,6 @@ body {
   box-sizing: border-box;
   background-color: #ddd;
   border: 5px solid #cfd8dc;
-  padding-left: 20px;
 }
 
 img {
@@ -22,5 +21,5 @@ img {
 }
 
 p {
-  margin: 0px 100px 100px;
+  margin: 0px 120px 120px;
 }
