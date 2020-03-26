@@ -13,21 +13,13 @@ body {
   box-sizing: border-box;
   background-color: #ddd;
   border: 5px solid #cfd8dc;
-  align-items: center;
+  align-items: left;
   justify-content: center;
 }
 
 img {
   height: 200px;
   width: 200px;
-}
-
-a {
-  color: black;
-}
-
-a:hover {
-  color: blue;
 }
 
 p {
