@@ -1,0 +1,74 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5vw;
+  font-weight: 400;
+  text-align: left;
+  color: #000000;
+  background-color: #ffffff;
+  margin-bottom: 15%;
+}
+
+p {
+  font-weight: 300;
+  margin-left: 5%;
+  margin-bottom: 10%;
+}
+
+.column {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.row {
+  background: #ffffa9;
+  margin: 3%;
+  width: 45vw;
+  height: 30vw;
+  transition: transform 0.2s; /* hover animation smoothness */
+}
+
+.row:hover {
+  transform: scale(1.02);
+}
+
+.description {
+  font-size: 1.25vw;
+  margin-top: 1%;
+  margin-bottom: 3%;
+  text-align: right;
+}
+
+#name {
+  margin-left: 5%;
+  margin-top: 6%;
+}
+
+#down_arrow {
+  height: 1vw;
+  width: 2vw;
+}
+
+.main-header {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5%;
+  font-size: 1.25vw;
+  font-weight: 400;
+}
+
+.main-nav ul {
+  margin: 1em 0 0.5em;
+  text-align: center;
+}
+.main-nav li {
+  display: inline-block;
+  padding: 0.5em 1.5em;
+}
+
+#work:hover,
+#about:hover,
+.row:hover {
+  cursor: pointer;
+}
