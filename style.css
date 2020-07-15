@@ -9,7 +9,7 @@ body {
 }
 
 p {
-  font-weight: 300;
+  font-weight: 400;
   margin-left: 5%;
   margin-bottom: 10%;
 }
@@ -24,6 +24,7 @@ p {
 .row {
   background: #ffffa9;
   margin: 3%;
+  margin-top: 5%;
   width: 45vw;
   height: 30vw;
   transition: transform 0.2s; /* hover animation smoothness */
@@ -35,8 +36,7 @@ p {
 
 .description {
   font-size: 1.25vw;
-  margin-top: 1%;
-  margin-bottom: 3%;
+  margin-bottom: 5%;
   text-align: right;
 }
 
